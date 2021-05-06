@@ -1,0 +1,511 @@
+.sticker {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticker h2 {
+    padding-bottom: 10px;
+    color: #84769A;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.sticker p {
+    color: #00776D;
+    font-size: 1.2rem;
+}
+
+.sticker p span{
+    text-decoration: underline;
+}
+
+.stickers-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.stickers-img img {
+    width: 25%;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    background: url("../images/1551289568.jpg") top no-repeat;
+    height: 1450px;
+    padding-top: 50px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    position: relative;
+}
+
+
+.discord, .twitch, .youtube, .facebook, .instagram, .twitter, .etsy, .amazon {
+    margin-top: 50px;
+    height: 200px;
+    width: 250px;
+    background: RGBA(54,57,63,0.7);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 12px 7px rgb(0 0 0 / 75);
+    margin-left: 70px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discord img {
+    width: 225px;
+}
+
+.discord h4 {
+    padding-top: 5px;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+}
+
+.discord-a {
+    text-decoration: none;
+    margin-top: -15px;
+}
+
+.discord-link {
+    background: #677BC4;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+}
+
+.discord-link:hover {
+    background: #5168bb;
+}
+
+.discord-link p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+.discord-link img {
+    width: 30px;
+    margin-top: 0;
+    padding-right: 5px;
+}
+
+.twitch-img img {
+    width: 140px;
+    margin-top: -25px;
+}
+
+.twitch h4 {
+    padding-top: 5px;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+}
+
+.twitch-a {
+    text-decoration: none;
+}
+
+.twitch-link {
+    background: #677BC4;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+}
+
+.twitch-link:hover {
+    background: #5168bb;
+}
+
+.twitch-link img {
+    width: 30px;
+}
+
+.twitch-link p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+.youtube img {
+    width: 157px;
+}
+
+.youtube-logo {
+    margin-top: 0 !important;
+    border-radius: 0px !important;
+    padding-right: 5px;
+}
+
+.youtube h4 {
+    padding-top: 5px;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+}
+
+.youtube-a {
+    text-decoration: none;
+}
+
+.youtube-link {
+    background: #677BC4;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+}
+
+.youtube-link:hover {
+    background: #5168bb;
+}
+
+.youtube-link img {
+    width: 30px;
+}
+
+.youtube-link p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+.facebook img {
+    width: 210px;
+    margin-top: 20px;
+}
+
+.facebook-logo {
+    margin-top: 0 !important;
+    border-radius: 0px !important;
+    padding-right: 5px;
+}
+
+.facebook h4 {
+    padding-top: 5px;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+}
+
+.facebook-a {
+    text-decoration: none;
+}
+
+.facebook-link {
+    background: #677BC4;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.facebook-link:hover {
+    background: #5168bb;
+}
+
+.facebook-link img {
+    width: 25px;
+}
+
+.facebook-link p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+/*instagram*/
+
+.instagram img {
+    width: 180px;
+}
+
+.instagram-logo {
+    margin-top: 0 !important;
+    border-radius: 0px !important;
+    padding-right: 5px;
+}
+
+.instagram h4 {
+    padding-top: 5px;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+}
+
+.instagram-a {
+    text-decoration: none;
+}
+
+.instagram-link {
+    background: #677BC4;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.instagram-link:hover {
+    background: #5168bb;
+}
+
+.instagram-link img {
+    width: 25px;
+}
+
+.instagram-link p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+/*twitter*/
+
+.twitter img {
+    width: 215px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.twitter-logo {
+    margin-top: 0 !important;
+    border-radius: 0px !important;
+    padding-right: 5px;
+}
+
+.twitter h4 {
+    padding-top: 5px;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+}
+
+.twitter-a {
+    text-decoration: none;
+}
+
+.twitter-link {
+    background: #677BC4;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.twitter-link:hover {
+    background: #5168bb;
+}
+
+.twitter-link img {
+    width: 20px;
+}
+
+.twitter-link p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+/*etsy*/
+
+.etsy img {
+    width: 70px;
+    margin-top: -20px;
+    margin-bottom: 3px;
+}
+
+.etsy-logo {
+    margin-top: 0 !important;
+    border-radius: 0px !important;
+    padding-right: 5px;
+}
+
+.etsy h4 {
+    padding-top: 5px;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+}
+
+.etsy-a {
+    text-decoration: none;
+}
+
+.etsy-link {
+    background: #677BC4;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.etsy-link:hover {
+    background: #5168bb;
+}
+
+.etsy-link img {
+    width: 20px;
+}
+
+.etsy-link p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+/*amazon*/
+
+.amazon img {
+    width: 210px;
+    margin-top: -10px;
+}
+
+.amazon-logo {
+    margin-top: 0 !important;
+    border-radius: 0px !important;
+    padding-right: 5px;
+}
+
+.amazon h4 {
+    padding-top: 5px;
+    padding-top: 5px;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+}
+
+.amazon-a {
+    text-decoration: none;
+}
+
+.amazon-link {
+    background: #677BC4;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.amazon-link:hover {
+    background: #5168bb;
+}
+
+.amazon-link img {
+    width: 25px;
+}
+
+.amazon-link p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+
+/*footer*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social img{
+    width: 35px;
+    padding: 20px 10px 0 0;
+}
+
+.info {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+}
+
+info p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+}

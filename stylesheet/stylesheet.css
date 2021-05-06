@@ -1,0 +1,30 @@
+@import "homepage.css";
+@import "socials.css";
+@import "responsive.css";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
+
+@font-face {
+    font-family: halloween;
+    src: url("../fonts/ScaryHalloweenFont-Bold.woff");
+}
+
+@font-face {
+    font-family: babas;
+    src: url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+}
+
+@font-face {
+    font-family: nightmare;
+    src: url("../fonts/HalloweenNightmareRegular.woff");
+}
+
+* {
+    margin : 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'bebas', sans-serif;
+}
